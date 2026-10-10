@@ -1,7 +1,7 @@
 program Claude_tutorial
-    use library, only: unmodularised
+    use library, only: modularised
     implicit none
     integer :: i
     i = 1
-    call unmodularised(i)
+    call modularised(i)
 end program

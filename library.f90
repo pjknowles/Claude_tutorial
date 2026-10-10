@@ -1,8 +1,8 @@
 module library
     implicit none
 contains
-    subroutine unmodularised(argument)
+    subroutine modularised(argument)
         integer, intent(inout) :: argument
         argument = 99
-    end subroutine unmodularised
+    end subroutine modularised
 end module library
